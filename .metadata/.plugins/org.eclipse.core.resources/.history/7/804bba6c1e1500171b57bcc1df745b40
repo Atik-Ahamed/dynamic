@@ -1,0 +1,5 @@
+
+<h1>This is KELTU Home Page</h1> 
+<img id="kel_home" src="keltu.jpg" />
+<div class="btn-group" role="group" aria-label="...">
+<a href="https://www.facebook.com/keltubot/" align="middle"> <button type="button" class="btn btn-default">START CHAT</button></a> 

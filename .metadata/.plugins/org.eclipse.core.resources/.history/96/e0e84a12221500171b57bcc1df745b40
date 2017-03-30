@@ -1,0 +1,25 @@
+body {
+	background-color: #A9A9A9;
+}
+#button {
+	text-allign: center;
+}
+#kel_home {
+	width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    margin-right: 200px;
+    margin-left: 122px;
+    margin-top: 10px;
+    float: left;
+}
+#chat {
+	margin-left: 218px;
+	float: left;
+	box-shadow: 3px 5px 17px 1px black;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+#mainbody{
+	background-color:white;
+}

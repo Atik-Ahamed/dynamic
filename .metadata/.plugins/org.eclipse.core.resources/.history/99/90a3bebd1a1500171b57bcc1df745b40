@@ -1,0 +1,22 @@
+<?php
+//setup file
+#database connection here....
+$dbc = mysqli_connect('localhost', 'dev', 'JWNbuA6SfjHmk4xJ', 'atomcms') OR die('Error Because:' . mysqli_connect_error());
+#Constatns:
+DEFINE('D_TEMPLATE','template');
+
+
+#Functions:
+include ('functions/data.php');
+$site_title = 'AtomCMS 2.0';
+if (isset($_GET['page'])) {
+    $pageid = $_GET['page'];
+} else {
+    $pageid = 1;
+}
+#page setup
+
+$page = data_page($dbc, $pageid);
+$anotherpage=data_page($dbc, 2);
+
+?>

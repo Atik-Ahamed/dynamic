@@ -1,0 +1,7 @@
+<?php
+function data_page() {
+    $q = "SELECT * FROM pages WHERE id= $pageid";
+    $r = mysqli_query($dbc, $q);
+    $page = mysqli_fetch_assoc($r);
+}
+?>

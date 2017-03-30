@@ -1,0 +1,11 @@
+<?php
+//setup file
+#database connection here....
+$dbc = mysqli_connect('localhost', 'dev', '01719302390.mdatik.', 'atomcms') OR die('Error Because:' . mysqli_connect_error());
+$site_title = 'AtomCMS 2.0';
+
+#page setup
+$q = "SELECT * FROM pages WHERE id=$_GET['page']";
+$r = mysqli_query($dbc, $q);
+$page = mysqli_fetch_assoc($r);
+?>

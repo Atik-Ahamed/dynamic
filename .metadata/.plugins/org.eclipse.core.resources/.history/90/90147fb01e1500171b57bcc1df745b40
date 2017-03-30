@@ -1,0 +1,10 @@
+
+#button {
+	text-allign: center;
+}
+#kel_home {
+	width: 50%;
+	height: 50%;
+	border-radius:50px;
+	margin-left:50px;
+}

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	
+	<title>Home Page</title>
+	<body>
+		<p> This is KELTU Home Page</p> 
+		<img id="kel_home" src="keltu.jpg" />
+		
+	</body>
+
+</html>

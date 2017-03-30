@@ -1,0 +1,16 @@
+
+#button {
+	text-allign: center;
+}
+#kel_home {
+	width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    margin-left: 60px;
+    margin-top: 10px;
+    float:left;
+}
+#chat{
+	margin-left:30px;
+	float:left;
+}

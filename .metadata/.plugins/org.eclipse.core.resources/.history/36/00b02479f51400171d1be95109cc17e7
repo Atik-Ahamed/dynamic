@@ -1,0 +1,9 @@
+body {
+	background-color: #B0C4DE;
+}
+.container {
+	background-color: white;
+}
+div.container {
+	background-color: #FFEFD5;
+}

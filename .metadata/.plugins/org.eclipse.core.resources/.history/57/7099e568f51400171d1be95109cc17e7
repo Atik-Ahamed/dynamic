@@ -1,0 +1,9 @@
+body {
+	background-color: #B0C4DE;
+}
+.container {
+	background-color: white;
+}
+.navbar-default {
+	background-color: #FFEFD5;
+}

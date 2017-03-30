@@ -1,0 +1,8 @@
+<?php
+//setup file
+#database connection here....
+$dbc=mysqli_connect('%', 'dev', '01719302390.mdatik.', 'atomcms');
+$site_title='AtomCMS 2.0';
+$page_title='Home Page';
+
+?>
