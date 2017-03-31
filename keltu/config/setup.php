@@ -8,7 +8,7 @@ DEFINE('D_TEMPLATE','template');
 
 #Functions:
 include ('functions/data.php');
-$site_title = 'AtomCMS 2.0';
+$site_title = 'Keltu website';
 if (isset($_GET['page'])) {
     $pageid = $_GET['page'];
 } else {

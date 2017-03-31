@@ -18,4 +18,6 @@
 
 <!-------sticky footer-------------->
 <link href="http://getbootstrap.com/examples/sticky-footer/sticky-footer.css" rel="stylesheet">
+
+
 <link href="template/customize.css" rel="stylesheet">
